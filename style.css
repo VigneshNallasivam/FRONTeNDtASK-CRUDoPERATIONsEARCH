@@ -1,0 +1,224 @@
+.background_image {
+    background-image: url("./IMAGES/employees.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+table,
+tr,
+th,
+td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+}
+
+td {
+    background-color: rgba(245, 245, 220, 0.914);
+}
+
+th {
+    background-color: rgba(177, 114, 38, 0.749);
+    color: white
+}
+
+tr:hover {
+    background-color: rgba(175, 226, 209, 0.836);
+}
+
+th:hover {
+    background-color: rgba(210, 105, 30, 0.801);
+}
+
+#count {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+    justify-content: space-between;
+}
+
+#male_count:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.8;
+}
+
+#female_count:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.8;
+}
+
+#delete_id:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.8;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+#logos {
+    border-radius: 50%;
+}
+
+#content_img {
+    text-align: center;
+    justify-content: space-between;
+}
+
+#content_img:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.8;
+}
+
+.invisible_text {
+    /* color: transparent; */
+    color: rgba(98, 93, 86, 0.529);
+}
+
+span {
+    color: rgba(236, 95, 52, 0.812);
+}
+
+li {
+    text-align: left;
+}
+
+#edit_button {
+    width: 50%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    margin-left: 23%;
+    background-color: rgb(177, 114, 38, 0.749);
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border-style: outset;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#edit_button:hover {
+    cursor: pointer;
+    background-color: rgba(210, 105, 30, 0.801);
+    color: yellow
+}
+
+#body1 {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(149, 215, 218);
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 470px;
+    border-radius: 30px;
+    opacity: 0.9;
+    animation-name: sample;
+    animation-duration: 25s;
+    animation-delay:none;
+    animation-iteration-count:infinite;
+}
+
+@keyframes sample {
+    /* from {background-color: rgb(160, 205, 232);}
+    to {background-color: rgba(255, 140, 0, 0.766);} */
+    0%   {background-color: rgb(160, 205, 232);}
+    10%  {background-color: rgba(53, 193, 188, 0.668);}
+    20%  {background-color: rgba(125, 125, 186, 0.744);}
+    30% {background-color: rgba(255, 140, 0, 0.766);}
+    40% {background-color: rgba(125, 125, 186, 0.744);}
+    50% {background-color: rgba(53, 193, 188, 0.668);}
+    60% {background-color: rgb(160, 205, 232);}
+    70% {background-color: rgba(157, 121, 172, 0.766);}
+    80% {background-color: rgba(226, 142, 142, 0.766);}
+    90% {background-color: rgba(226, 221, 153, 0.766);}
+    100% {background-color: rgba(255, 140, 0, 0.766);}
+  }
+
+#content1 {
+    color: honeydew;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h4 {
+    text-align: center;
+    color: brown;
+    font-style: italic;
+}
+
+#index_image:hover {
+    transform: scale(1.1, 1.1);
+}
+
+#index_image {
+    margin-left: 650px;
+    margin-top: -67px;
+}
+
+#checker {
+    width: 17px;
+    height: 17px;
+}
+
+#stick_1{
+    padding:30px 3px ;
+    width:2px;
+    background-color: rgb(238, 144, 144);
+    border-radius: 10px;
+    margin-top: -80px;
+    margin-left:20px;
+    transition:transform 2s;
+}
+
+#stick_2{
+    padding:20px 3px ;
+    width:2px;
+    background-color: rgb(248, 244, 244);
+    border-radius: 10px;
+    margin-top: -40px;
+    margin-left:35px;
+    transition:transform 2s;
+    
+}
+
+#stick_3{
+    padding:13px 3px ;
+    width:2px;
+    background-color: rgb(238, 144, 144);
+    border-radius: 10px;
+    margin-top: -26px;
+    margin-left:50px;
+    transition:transform 2s;
+}
+
+#body1:hover #stick_1{
+    transform: rotate(180deg);
+    background-color: black;
+}
+#body1:hover #stick_2{
+    transform: rotate(180deg);
+    background-color:red;
+}
+#body1:hover #stick_3{
+    transform: rotate(180deg);
+    background-color:black
+}
+

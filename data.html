@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>data-Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer="true" src="./script.js"></script>
+    <script defer="true" src="./JQUERY/Jquery.js"></script>
+</head>
+
+<body>
+    <section>
+        <table>
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="count">
+            <div id="content_img">
+                <a href="./index.html"><img src="./IMAGES/home.png" height="55" width="55"></a>
+                <div class="invisible_text">Home</div>
+            </div>
+            <div id="content_img">
+                <img src="./IMAGES/refresh.png" onclick="refresh()" height="55" width="55"></a>
+                <div class="invisible_text">Refresh</div>
+            </div>
+            <div id="content_img">
+                <img src="./IMAGES/male.png" onclick="maleCount(dataArray)" height="50" width="50">
+                <div class="invisible_text">Male</div>
+            </div>
+            <div id="content_img">
+                <img src="./IMAGES/female.png" onclick="femaleCount(dataArray)" height="50" width="50">
+                <div class="invisible_text">Female</div>
+            </div>
+            <div id="content_img">
+                <img src="./IMAGES/delete.png" onclick="singleIdDeletion()" height="55" width="55">
+                <div class="invisible_text">Delete</div>
+            </div>
+            <div id="content_img">
+                <img id="logos" src="./IMAGES/search.png" onclick="searching()" height="55" width="55">
+                <div class="invisible_text">Search</div>
+            </div>
+        </div>
+    </section>
+    <button id="edit_button" type="button" onclick="checkBoxEnableOrDisable(false)">EDIT</button>
+</body>
+
+</html>
