@@ -131,26 +131,59 @@ li {
     border-radius: 30px;
     opacity: 0.9;
     animation-name: sample;
-    animation-duration: 25s;
-    animation-delay:none;
-    animation-iteration-count:infinite;
+    animation-duration: 20s;
+    animation-delay: none;
+    animation-iteration-count: infinite;
 }
 
 @keyframes sample {
+
     /* from {background-color: rgb(160, 205, 232);}
     to {background-color: rgba(255, 140, 0, 0.766);} */
-    0%   {background-color: rgb(160, 205, 232);}
-    10%  {background-color: rgba(53, 193, 188, 0.668);}
-    20%  {background-color: rgba(125, 125, 186, 0.744);}
-    30% {background-color: rgba(255, 140, 0, 0.766);}
-    40% {background-color: rgba(125, 125, 186, 0.744);}
-    50% {background-color: rgba(53, 193, 188, 0.668);}
-    60% {background-color: rgb(160, 205, 232);}
-    70% {background-color: rgba(157, 121, 172, 0.766);}
-    80% {background-color: rgba(226, 142, 142, 0.766);}
-    90% {background-color: rgba(226, 221, 153, 0.766);}
-    100% {background-color: rgba(255, 140, 0, 0.766);}
-  }
+    0% {
+        background-color: rgb(160, 205, 232);
+    }
+
+    10% {
+        background-color: rgba(53, 193, 188, 0.668);
+    }
+
+    20% {
+        background-color: rgba(125, 125, 186, 0.744);
+    }
+
+    30% {
+        background-color: rgba(255, 140, 0, 0.766);
+    }
+
+    40% {
+        background-color: rgba(125, 125, 186, 0.744);
+    }
+
+    50% {
+        background-color: rgba(53, 193, 188, 0.668);
+    }
+
+    60% {
+        background-color: rgb(160, 205, 232);
+    }
+
+    70% {
+        background-color: rgba(157, 121, 172, 0.766);
+    }
+
+    80% {
+        background-color: rgba(226, 142, 142, 0.766);
+    }
+
+    90% {
+        background-color: rgba(226, 221, 153, 0.766);
+    }
+
+    100% {
+        background-color: rgba(255, 140, 0, 0.766);
+    }
+}
 
 #content1 {
     color: honeydew;
@@ -178,47 +211,48 @@ h4 {
     height: 17px;
 }
 
-#stick_1{
-    padding:30px 3px ;
-    width:2px;
+#stick_1 {
+    padding: 30px 3px;
+    width: 2px;
     background-color: rgb(238, 144, 144);
     border-radius: 10px;
     margin-top: -80px;
-    margin-left:20px;
-    transition:transform 2s;
+    margin-left: 20px;
+    transition: transform 2s;
 }
 
-#stick_2{
-    padding:20px 3px ;
-    width:2px;
+#stick_2 {
+    padding: 20px 3px;
+    width: 2px;
     background-color: rgb(248, 244, 244);
     border-radius: 10px;
     margin-top: -40px;
-    margin-left:35px;
-    transition:transform 2s;
-    
+    margin-left: 35px;
+    transition: transform 2s;
+
 }
 
-#stick_3{
-    padding:13px 3px ;
-    width:2px;
+#stick_3 {
+    padding: 13px 3px;
+    width: 2px;
     background-color: rgb(238, 144, 144);
     border-radius: 10px;
     margin-top: -26px;
-    margin-left:50px;
-    transition:transform 2s;
+    margin-left: 50px;
+    transition: transform 2s;
 }
 
-#body1:hover #stick_1{
+#body1:hover #stick_1 {
     transform: rotate(180deg);
     background-color: black;
 }
-#body1:hover #stick_2{
+
+#body1:hover #stick_2 {
     transform: rotate(180deg);
-    background-color:red;
-}
-#body1:hover #stick_3{
-    transform: rotate(180deg);
-    background-color:black
+    background-color: red;
 }
 
+#body1:hover #stick_3 {
+    transform: rotate(180deg);
+    background-color: black
+}

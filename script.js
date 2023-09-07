@@ -200,7 +200,7 @@ function searchByKeyword(search) {
         updateTable();
         show(filteredData, true);
     } else {
-        alert("Oops.. Name Is Unavailable");
+        alert("Oops..Unavailable");
     }
 }
 

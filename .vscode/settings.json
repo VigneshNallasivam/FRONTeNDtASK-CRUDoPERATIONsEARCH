@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --app='http://127.0.0.1:5500/index.html'"
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --app='http://127.0.0.1:5500/index.html'",
+    "liveServer.settings.port": 5501
 }
